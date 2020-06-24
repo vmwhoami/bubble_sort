@@ -2,8 +2,7 @@ def bubble_sort_by(arr)
   loop do
     sorted = true
     (arr.length - 1).times do |i|
-      if yield(arr[i], arr[i + 1]) <= 0
-      else
+      if yield(arr[i], arr[i + 1]).positive?
         arr[i], arr[i + 1] = arr[i + 1], arr[i]
         sorted = false
       end

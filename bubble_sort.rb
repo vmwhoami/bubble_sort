@@ -9,7 +9,6 @@ def bubble_sort(arr)
     end
     break if sorted
   end
-
   arr
 end
 
