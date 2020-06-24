@@ -14,7 +14,7 @@ def bubble_sort_by(arr)
   arr 
 end
 
-a = bubble_sort_by(["hello","goodby","zaiqian","dosvidania","aurevoire","by","nihao"]) {|first,second| first.length - second.length}
+a = bubble_sort_by(["hello","goodby","zaiqian","dosvidania","aurevoire","by","nihao","la revedere"]) {|first,second| first.length - second.length}
 p a
 
 
