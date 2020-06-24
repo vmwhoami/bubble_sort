@@ -17,7 +17,4 @@ end
 p bubble_sort([3,1,7,1,9,6,8,8])
 
 
-# 3.times do |i|
-#  p arr[i]
-# end
 
