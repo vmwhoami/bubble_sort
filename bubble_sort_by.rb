@@ -13,6 +13,6 @@ def bubble_sort_by(arr)
 end
 
 a = bubble_sort_by(['hello', 'goodby', 'zaiqian',
-                    'dosvidania', 'aurevoire', 'by',
+                    'dosvidania', 'aurevoire', 'bey',
                     'nihao', 'la revedere']) { |first, second| first.length - second.length }
 p a
